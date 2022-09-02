@@ -1,0 +1,12 @@
+{
+    "projects" : [
+        { 
+           "image": "stock_project.png",   
+           "title": "Stock Growth Analyzer",
+           "content": "This is a personal application I built that show what could've been if you invested in the stock market at some particular date. It allows you to perform basic analysis of a stock or even a whole portfolio. It's a work in progress.",
+           "footer": "In Progress. Last Updated 9-2-22.",
+           "link": "https://github.com/yoguess11/Stock_Growth_Analyzer"
+        }  
+        
+    ]
+}

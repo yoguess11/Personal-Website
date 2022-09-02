@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="design.css"> 
+    <title>PORTFOLIO</title>
+  </head>
+  <body>
+    
+    <!--HEADER BEGINS HERE, mainly the navbar is in the header-->
+    <header>
+    <nav class="navbar-style navbar navbar-expand-sm">
+        <a class="navbar-brand" href="index.html"> <img src="image/yk_logo.png" width="40" height="40"></a>
+        <button style="color: white" class="navbar-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-light navbar-toggler-icon"></span>
+        </button>
+        <div class="justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav-links navbar-nav">
+                <li class="nav-item"><a href="index.html">HOME</a></li>
+                <li class="nav-item"><a href="portfolio.html">PORTFOLIO</a></li>
+                <li class="nav-item"><a href="mailto:yogesh11@mit.edu">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <!--ENDS HEADER CONTENT-->
+    
+    <!--Goal is to have cards over some background, which show my projects and give some information regarding it--> 
+
+    <!--TODO: Use JSON to nicely make this code very clean, should be interesting
+
+        JSON should be formatted as such 
+        {
+          projects: [
+          {
+           "image": 
+           "title":
+           "content":
+           "footer": 
+          }
+          ]
+        }-->
+
+    <div class="portfolio-bckg">
+        <h1 class="portfolio-header"><u>My Portfolio:</u> </h1>
+        <div class="card-deck">
+            <div class="card text-white mt-4 template">
+              <a class="img-link" href="" target="_blank"> <img class="card-img-top" src="" alt="Card image cap"> </a>
+              <div class="card-body">
+                <a class="title-link" href="" target="_blank"> <h5 class="card-title">Card title</h5> </a>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+        </div>
+      </div>  
+ 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>

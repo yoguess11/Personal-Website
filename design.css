@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.text {
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.button_text {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: 3px solid gray;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-links li{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 2vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+}
+
+button {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.navbar-style {
+    background-color: #24252a;
+    box-shadow: 0 5px 10px #24252a;
+}
+
+.picture {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+header {
+    margin-bottom: 2vh;
+}
+.portfolio-bckg {
+    background-color: #232B2B;
+    width: 100vw;
+    background-repeat: repeat-y;
+}
+
+.card {
+    background-color: #24252a;
+}
+
+.template {
+    display: none!important;;
+}
+
+.portfolio-header {
+    text-align: center;
+    color: white;
+    background-color: #232B2B;
+    margin: 0;
+    padding-bottom: 3vh;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size:5rem;
+}
+
+.logo-container {
+    color:white;
+    width: 8vw;
+    height: 4vh;
+    background-color: rgb(231, 216, 216);
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.logo {
+    height: 4vh;
+    width: 4vw;
+}
+
+.card-title {
+    text-decoration: none;
+    font-weight: bold;
+}
