@@ -34,6 +34,7 @@ function loadProjects() {
     
                     const img = newIndpCard.querySelector(".card-img-top");
                     img.setAttribute('src', 'image/'+project.image);
+                    img.setAttribute('alt', project.title);
                     newIndpCard.querySelector(".img-link").setAttribute('href', project.link);
                     newIndpCard.querySelector(".title-link").setAttribute('href', project.link);
                     newIndpCard.querySelector(".card-title").innerHTML = project.title;
