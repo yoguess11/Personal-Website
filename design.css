@@ -95,19 +95,26 @@ header {
 
 .logo-container {
     color:white;
-    width: 8vw;
-    height: 4vh;
+    width: 90px;
+    height: 40px;
     background-color: rgb(231, 216, 216);
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
 
 .logo {
-    height: 4vh;
-    width: 4vw;
+    height: 40px;
+    width: 40px;
 }
 
 .card-title {
     text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-text{
+    margin: 0;
+    padding: 0;
+    text-align: center;
     font-weight: bold;
 }

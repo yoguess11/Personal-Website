@@ -6,7 +6,69 @@
            "content": "This is a personal application I built that show what could've been if you invested in the stock market at some particular date. It allows you to perform basic analysis of a stock or even a whole portfolio. It's a work in progress.",
            "footer": "In Progress. Last Updated 9-2-22.",
            "link": "https://github.com/yoguess11/Stock_Growth_Analyzer"
-        }  
-        
+        },
+        {
+           "image": "website.png",   
+           "title": "Website-ception",
+           "content": "This is the code for this website! I'll continually be adding new features and improvements, so this is a work in progress. I've used the Bootstrap library, along with HTML, CSS and JS to create this website.",
+           "footer": "In Progress. Last Updated 9-2-22.",
+           "link": "https://github.com/yoguess11/Personal-Website"
+        },
+        {
+           "image": "snek_you.png",   
+           "title": "[6.009] Snek Is You",
+           "content": "Snek Is You is a mockup of the game Baba Is You. This was created by me with my own choice of data representing the snek, obstacles, and rules. I also dealt with object detection, collision handling, and rules parsing, since this game requires us to parse the rule and act according to the new rule each time. Only the GUI and levels were provided by the staff; everything else was coded by me.",
+           "footer": "Completed Project. Last Updated 12-10-22.",
+           "link": "javascript: alert(\"This was a project for MIT's  6.009 course (now 6.1010). Due to the class's strict academic honestly policy, I'm unable to display the code for this program. Please email me [Contact Tab on the navbar] if you want to have access with your organization email and explain why. Because of this policy, this project was mostly my work as well--only some guidance was provided by the staff of 6.009.\");"       
+        },
+        {
+           "image": "snek_repl.png",   
+           "title": "[6.009] Snek Progamming Language",
+           "content": "I created a REPL for the Snek Programming language, in which I set up a structure to show any Snek Errors properly. I set up a recursive structure to parse an arbitrary depth of valid code and an interpreter to execute each of those lines of code. I also had a structure for saving functions and variables and an environmental system that allowed me to work with function closures as well! The interpreter was extremely similar to how Python worked in various environments.",
+           "footer": "Want to add Improvements. Last Updated 1-10-22.",
+           "link": "javascript: alert(\"This was a project for MIT's  6.009 course (now 6.1010). Due to the class's strict academic honestly policy, I'm unable to display the code for this program. Please email me [Contact Tab on the navbar] if you want to have access with your organization email and explain why. Because of this policy, this project was mostly my work as well--only some guidance was provided by the staff of 6.009.\");"       
+        },  
+        {
+           "image": "Bin_op.png",   
+           "title": "[6.009] Binary Operation",
+           "content": "Binary Operation is a program that reads a string of calculation text (given in a valid format) and performs operations ranging from addition, subtraction, multiplication, division, exponentiation and differentiation. The interesting thing is that it can perform an operation on an expression of arbitrary depth. I also added support to tokenize and parse the string calculation problem into a valid Binary Operation in which the computer can perform its various operations.",
+           "footer": "Want to Add More Features. Last Updated 12-10-22.",
+           "link": "javascript: alert(\"This was a project for MIT's  6.009 course (now 6.1010). Due to the class's strict academic honestly policy, I'm unable to display the code for this program. Please email me [Contact Tab on the navbar] if you want to have access with your organization email and explain why. Because of this policy, this project was mostly my work as well--only some guidance was provided by the staff of 6.009.\");"       
+        }, 
+        {
+           "image": "trie_img.png",   
+           "title": "[6.009] Trie",
+           "content": "Trie is a structure in which words are put into a structure that allows you to perform operations like autocorrecting, autocompleting, finding patterns, checking for frequency really quickly. I implemented it such that I could make sentences, words, and even text in books into a Trie structure, allowing me to perform a lot of exciting operations on them really quickly! I implemented this data structure OOP style, and it was an extremely enjoyable experience developing this structure.",
+           "footer": "Completed Project. Last Updated 12-10-22.",
+           "link": "javascript: alert(\"This was a project for MIT's  6.009 course (now 6.1010). Due to the class's strict academic honestly policy, I'm unable to display the code for this program. Please email me [Contact Tab on the navbar] if you want to have access with your organization email and explain why. Because of this policy, this project was mostly my work as well--only some guidance was provided by the staff of 6.009.\");"       
+        },  
+        {
+           "image": "sat_img.png",   
+           "title": "[6.009] SAT Problem",
+           "content": "I made a program that solves the SAT problem using a backtracking algorithm to simplify the CNF expressions each time. In addition, I added a check to see whether a SAT problem was satisfiable at all. Using this, I set up a scheduling problem, where I would assign several students into rooms based on their preference and the room capacity.",
+           "footer": "Completed Project. Last Updated 12-10-22.",
+           "link": "javascript: alert(\"This was a project for MIT's  6.009 course (now 6.1010). Due to the class's strict academic honestly policy, I'm unable to display the code for this program. Please email me [Contact Tab on the navbar] if you want to have access with your organization email and explain why. Because of this policy, this project was mostly my work as well--only some guidance was provided by the staff of 6.009.\");"       
+        },  
+        {
+           "image": "nd_img.png",   
+           "title": "[6.009] N-d minesweeper",
+           "content": "I created this game of minesweeper by starting with the normal 2-d minesweeper. Then, I started using the same logic and pattern to move on to a game of minesweeper with n dimensions--of arbitrary dimension. This, of course, required extensive use of recursion, and it forced me to think about how to make an n-dimensional game by thinking of creating an n-dimensional grid and overall using functions meant for arbitrary dimensions. For example, I had to check neighbors in n-dimensions, render in n-dimensions and dig in n-dimensions.",
+           "footer": "Completed Project. Last Updated 12-10-22.",
+           "link": "javascript: alert(\"This was a project for MIT's  6.009 course (now 6.1010). Due to the class's strict academic honestly policy, I'm unable to display the code for this program. Please email me [Contact Tab on the navbar] if you want to have access with your organization email and explain why. Because of this policy, this project was mostly my work as well--only some guidance was provided by the staff of 6.009.\");"       
+        },  
+        {
+           "image": "bacon_numbers.png",   
+           "title": "[6.009] Bacon Number",
+           "content": "Bacon Number is a project that made us work with nodes and figure out how many nodes are connected with a particular node. We also had to find the shortest distance between two nodes. This project required us to choose a really nice data structure, so that our search was as fast as possible. Since our nodes were 'actors', we also had to find a connecting 'actors' between 'movies', which was also interesting and required an efficient process for doing so.",
+           "footer": "Completed Project. Last Updated 12-10-22.",
+           "link": "javascript: alert(\"This was a project for MIT's  6.009 course (now 6.1010). Due to the class's strict academic honestly policy, I'm unable to display the code for this program. Please email me [Contact Tab on the navbar] if you want to have access with your organization email and explain why. Because of this policy, this project was mostly my work as well--only some guidance was provided by the staff of 6.009.\");"       
+        },
+        {
+           "image": "seam_carving.png",   
+           "title": "[6.009] Image Editing",
+           "content": "In the Image editing project, we used a kernel to apply a wide range of basic photoshop tools, like blurring, inversion, sharpening. We also used filters, such as direction embloss and seam carving. Above you can see the result of seam carving on an image that is decreased by 100 pixels; notice how the content of the image is not changed much! This is the power of the seam carving technique, and it is extremely cool!",
+           "footer": "Want to Add More Techniques. Last Updated 12-10-22.",
+           "link": "javascript: alert(\"This was a project for MIT's  6.009 course (now 6.1010). Due to the class's strict academic honestly policy, I'm unable to display the code for this program. Please email me [Contact Tab on the navbar] if you want to have access with your organization email and explain why. Because of this policy, this project was mostly my work as well--only some guidance was provided by the staff of 6.009.\");"       
+        }
     ]
 }
